@@ -1,0 +1,13 @@
+#server port
+server:
+  port: 8090
+
+#db connection
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/vmportal
+    username: root
+thymeleaf:
+  cache: false
+
